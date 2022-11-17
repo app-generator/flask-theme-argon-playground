@@ -3,7 +3,8 @@
 Copyright (c) 2019 - present AppSeed.us
 """
 
-from apps import app
+# from apps import app
+from argon_app import app
 
 DEBUG = app.config['DEBUG'] 
 

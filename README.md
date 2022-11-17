@@ -16,15 +16,29 @@ $ pip install git+https://github.com/app-generator/flask-theme-argon.git
 
 <br />
 
-> ToDO: the rest of the steps here + `configuration`
+> **Step 2** - Configure the installed apps
+
+<br />
+
+- Go to run.py file in root directory
+- import app from `argon_app` and comment out the local app.
+
+```python
+  # from apps import app
+  from argon_app import app
+```
+- keep the rest of the page as it is
+
+<br />
+
+> **Step 3** - Start the App
 
 ```bash
-$ STEP_1...
-$ STEP_2...
-$ STEP_3...
+$ flask run
 ```
 
 <br />
+
 
 ---
 [Flask Theme Argon](https://github.com/app-generator/flask-theme-argon) `playground` - Open-source project supported by **[AppSeed](https://appseed.us/generator/)**.
